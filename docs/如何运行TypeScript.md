@@ -16,7 +16,13 @@ swc 1.ts -o 1.js
 # tsc
 npm i -g typescript
 tsc 1.ts
-# babel
-pnpm i @babel/core @bable/cli @babel/preset-typescript
-babel --presets @babel/preset-typescript 1.ts
+# babel 项目内安装
+pnpm add @babel/core @babel/cli @babel/preset-typescript # 先安装依赖
+babel --presets @babel/preset-typescript 1.ts # 将此命令写在package.json运行脚本中
+./node_modules/.bin/babel --presets @babel/preset-typescript 1.ts # 使用相对路径访问babel命令行
+npx babel --presets @babel/preset-typescript 1.ts # 执行之前首先要安装 @babel/cli 和 @babel/core
 ```
+
+- [安装pnpm](https://www.pnpm.cn/installation)
+- [@babel/preset-typescript](https://www.babeljs.cn/docs/babel-preset-typescript)
+- [@babel/cli](https://www.babeljs.cn/docs/babel-cli)
