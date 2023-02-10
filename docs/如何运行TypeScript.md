@@ -26,3 +26,18 @@ npx babel --presets @babel/preset-typescript 1.ts # 执行之前首先要安装 
 - [安装pnpm](https://www.pnpm.cn/installation)
 - [@babel/preset-typescript](https://www.babeljs.cn/docs/babel-preset-typescript)
 - [@babel/cli](https://www.babeljs.cn/docs/babel-cli)
+
+## ES6兼容表
+
+[es6 compatebility table](https://kangax.github.io/compat-table/es6/)
+
+## 在线编辑器
+
+- [TypeScript playground](https://www.typescriptlang.org/play)
+- [Playcode.io](https://playcode.io/) 实时预览很快，收费
+- [Stackblitz.com](https://stackblitz.com/) 有单独的vite分类，界面跟VSCode很一致
+- [Codesandbox.io](https://codesandbox.io/)
+
+## 使用vite运行TypeScript
+
+## 如何用Node运行TS
